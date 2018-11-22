@@ -7,7 +7,7 @@
 
 ## Overview
 
-Given an image of a dog, this [notebook](dog_app.ipynb) will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
+Given an image of a dog, this [notebook](dog_app.ipynb) will estimate the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
 
 ![Sample Output][image1]
 
@@ -15,9 +15,9 @@ Given an image of a dog, this [notebook](dog_app.ipynb) will identify an estimat
 
 ### Training Data
 
-Training data consists of over 8000 dog images tagged with their breed's. The imaged are split into training, test and validation sets.
+Training data consists of over 8000 dog images tagged with their breeds. The images are split into training, test and validation sets.
 
-The data contains instances of minimal inter-class variation, such as retrievers and spaniels.
+The data contains instances of minimal inter-class variation, such as between retrievers and spaniels.
 
 | Retriever | Spaniel |
 | ---- | ---- |
@@ -25,7 +25,7 @@ The data contains instances of minimal inter-class variation, such as retrievers
 
 There are also cases of high intra-class variation, such as within Labradors.
 
-| Yellow Labrador | Chocolate Labrador | Black Labrador |
+| Golden Labrador | Brown Labrador | Black Labrador |
 | --- | --- | --- |
 | <img src="https://github.com/Tomesco/dog-breed-classifier/blob/master/images/Labrador_retriever_06457.jpg?raw=true" height=150px> | <img src="https://github.com/Tomesco/dog-breed-classifier/blob/master/images/Labrador_retriever_06455.jpg?raw=true" height=150px> | <img src="https://github.com/Tomesco/dog-breed-classifier/blob/master/images/Labrador_retriever_06449.jpg?raw=true" height=150px> |
 
